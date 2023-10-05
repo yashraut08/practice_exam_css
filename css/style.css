@@ -1,0 +1,47 @@
+main{
+    border: solid 2px grey;
+    width: 75%;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #cad1d8;
+    font-size: 35px;
+}
+
+li {
+    border: solid 2px black;
+    display: inline;
+}
+
+footer li {
+    margin-left: 100px;
+}
+
+div {
+    width: 22%;
+    text-align: center;
+    border: solid 2px green;
+    display: inline-block;
+}
+
+div:hover{
+    border: solid 10px blue;
+}
+
+.special{
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+div:nth-child(even){
+    border: dashed 10px green;
+    padding: 50px 0px;
+}
+
+div:last-child{
+    font-family: auto;
+    background-color: yellow;
+    margin: auto;
+    display: block;
+}
